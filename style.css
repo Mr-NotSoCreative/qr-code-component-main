@@ -39,8 +39,13 @@ body{
 }
 .attribution{
     position: fixed;
-    top: 0px;
+    bottom: 0px;
     left: 0px;
-    font-size: 11px; text-align: center;
+    right:0px;
+    font-size: 11px;
+    text-align: center;
+    
+}
+.attribution a{
     color: hsl(228, 45%, 44%);
 }
