@@ -4,8 +4,10 @@ body{
     background-color: #d5e1ef;
     min-height: 100vh;
     display: flex;
+    flex-direction: column;
     align-items: center;
     font-size: 15px;
+    justify-content: center;
 }
 *{
     margin: 0px;
@@ -35,13 +37,13 @@ body{
     padding-bottom: 15px;
 }
 .text p{
-    color: hsl(220, 15%, 55%);
+    color: hsl(218.6, 11.9%, 46.3%);
 }
 .attribution{
-    position: fixed;
+    /* position: fixed;
     bottom: 0px;
     left: 0px;
-    right:0px;
+    right:0px; */
     font-size: 11px;
     text-align: center;
     
